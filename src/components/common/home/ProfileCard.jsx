@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProfileCard = () => {
   return (
     <>
@@ -14,13 +12,13 @@ const ProfileCard = () => {
           </div>
           <div className="col-span-1">
             <div className="flex flex-col w-full h-[80%] my-2 md:gap-y-2">
-              <h4 className="text-md uppercase text-gray-600 font-bold text-center md:text-start">
+              <h4 className="text-md uppercase text-gray-600 font-bold text-center md:text-start secondary_font">
                 Software Developer
               </h4>
-              <h4 className="text-2xl uppercase text-white font-bold text-center md:text-start">
+              <h4 className="text-2xl uppercase text-white font-bold text-center md:text-start primary_font">
                 Juned Pothawale
               </h4>
-              <h4 className="text-md text-gray-600 line-clamp-3 text-center md:text-left">
+              <h4 className="secondary_font text-md text-gray-600 line-clamp-3 text-center md:text-left">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
                 placeat dicta exercitationem! Accusantium mollitia reprehenderit
                 earum nam perferendis molestias ab maiores cumque tempora quo

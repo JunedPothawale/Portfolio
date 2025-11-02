@@ -5,7 +5,7 @@ const ProfileSummeryCard = () => {
     <>
       <div className="flex flex-col w-full h-full px-7 rounded-3xl card border border-gray-900 justify-center items-center">
         <div className="prop_card_image h-full w-full text-5xl text-gray-100">
-          <img src="/public/images/icons/png/icon2.png" alt="" />
+          <img src="/images/icons/png/icon2.png" alt="" />
         </div>
         <div className="prop_card_content flex flex-col w-full pb-5 h-full justify-between">
           <div className="heading text-4xl my-2 font-medium">

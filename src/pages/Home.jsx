@@ -1,4 +1,3 @@
-import React from "react";
 import ProfileCard from "../components/common/home/ProfileCard";
 import { ScrollFeature } from "./../components/common/home/Scrollbar";
 import CommonCard from "./../components/common/home/CommonCard";
@@ -23,7 +22,7 @@ const Home = () => {
               <div className="col-span-2 md:col-span-1 h-full w-full">
                 <CommonCard
                   data={{
-                    image: "/public/images/svg/junedSignature.svg",
+                    image: "/images/svg/junedSignature.svg",
                     subheading: "more about me",
                     heading: "Credentials",
                     url: "/credentials",
@@ -33,7 +32,7 @@ const Home = () => {
               <div className="col-span-2 md:col-span-1  h-full w-full">
                 <CommonCard
                   data={{
-                    image: "/public/images/my-works.png",
+                    image: "/images/my-works.png",
                     subheading: "SHOWCASE",
                     heading: "Projects",
                     url: "/blog",
@@ -47,7 +46,7 @@ const Home = () => {
               <div className="col-span-4 md:col-span-2 lg:col-span-1 h-full">
                 <CommonCard
                   data={{
-                    image: "/public/images/gfonts.png",
+                    image: "/images/gfonts.png",
                     subheading: "Blog",
                     heading: "GFonts",
                     url: "/blog",

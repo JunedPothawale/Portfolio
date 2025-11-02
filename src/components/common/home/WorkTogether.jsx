@@ -6,7 +6,7 @@ const WorkTogether = () => {
       <a className="group" href="">
         <div className="prop_cards flex flex-col w-full h-full px-7 rounded-3xl card justify-center items-center">
           <div className="prop_card_image h-full w-full text-5xl p-0 text-gray-100">
-            <img src="/public/images/icons/png/icon2.png" alt="" />
+            <img src="/images/icons/png/icon2.png" alt="" />
           </div>
           <div className="prop_card_content flex items-end w-full h-full  py-7 justify-between">
             <div className="prop_card_subcontent">

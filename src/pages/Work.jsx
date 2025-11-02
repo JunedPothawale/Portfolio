@@ -3,14 +3,14 @@ const workCard = [
   {
     id: 1,
     name: "WEB Designing",
-    img: "/public/images/project1.jpeg",
+    img: "/images/project1.jpeg",
     type: "Web Development",
     url: "https://react-icons.github.io/react-icons/search/#q=bars",
   },
   {
     id: 2,
     name: "Full StacK App Development",
-    img: "/public/images/project5.jpeg",
+    img: "/images/project5.jpeg",
     type: "App Development",
     url: "https://react-icons.github.io/react-icons/search/#q=bars",
   },
@@ -20,28 +20,28 @@ const ProjectCardData = [
   {
     id: 1,
     name: "Tradeverse Dashboard",
-    img: "/public/images/project3.jpeg",
+    img: "/images/project3.jpeg",
     type: "Web designing",
     url: "https://react-icons.github.io/react-icons/search/#q=bars",
   },
   {
     id: 2,
     name: "Tradeverse",
-    img: "/public/images/project4.jpeg",
+    img: "/images/project4.jpeg",
     type: "Web designing",
     url: "https://react-icons.github.io/react-icons/search/#q=bars",
   },
   {
     id: 3,
     name: "Tradeverse Dashboard",
-    img: "/public/images/project5.jpeg",
+    img: "/images/project5.jpeg",
     type: "Web designing",
     url: "https://react-icons.github.io/react-icons/search/#q=bars",
   },
   {
     id: 4,
     name: "Tradeverse",
-    img: "/public/images/project6.jpeg",
+    img: "/images/project6.jpeg",
     type: "Web designing",
     url: "https://react-icons.github.io/react-icons/search/#q=bars",
   },
@@ -56,19 +56,11 @@ const Work = () => {
         </div>
         <div className="beside_card_section col-span-6 grid grid-cols-6 gap-4">
           <div className="col-span-6 flex justify-around items-center my-5">
-            <img
-              className="h-15"
-              src="/public/images/icons/png/star-2.png"
-              alt=""
-            />
+            <img className="h-15" src="/images/icons/png/star-2.png" alt="" />
             <h1 className="text-4xl xl:text-6xl font-semibold uppercase">
               All Project
             </h1>
-            <img
-              className="h-15"
-              src="/public/images/icons/png/star-2.png"
-              alt=""
-            />
+            <img className="h-15" src="/images/icons/png/star-2.png" alt="" />
           </div>
           <ProjectCard ProjectCardData={ProjectCardData} />
         </div>

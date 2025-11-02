@@ -13,7 +13,7 @@ const About = () => {
           <div className="col-span-12 md:col-span-8 md:col-start-3 w-full lg:col-span-4 card rounded-4xl p-6 md:p-3 lg:p-5  border border-gray-800 aspect-square">
             <img
               className="w-full bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-4xl"
-              src="/public/images/me.png"
+              src="/images/me.png"
               alt="Juned Pothawale Image"
             />
           </div>
@@ -21,7 +21,7 @@ const About = () => {
             <div className="summary flex justify-around items-center py-5">
               <img
                 className="aspect-square"
-                src="/public/images/icons/png/star-2.png"
+                src="/images/icons/png/star-2.png"
                 alt=""
               />
               <h1 className="text-3xl md:text-6xl lg:text-6xl xl:text-6xl  font-semibold uppercase">
@@ -29,7 +29,7 @@ const About = () => {
               </h1>
               <img
                 className="aspect-square"
-                src="/public/images/icons/png/star-2.png"
+                src="/images/icons/png/star-2.png"
                 alt=""
               />
             </div>
@@ -91,7 +91,7 @@ const About = () => {
           <div className="col-span-3 w-full">
             <CommonCard
               data={{
-                image: "/public/images/svg/junedSignature.svg",
+                image: "/images/svg/junedSignature.svg",
                 subheading: "more about me",
                 heading: "Credentials",
                 url: "/credentials",
