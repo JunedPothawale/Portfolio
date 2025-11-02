@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+
+:root{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: #000;
+  color: white;
+}
+.card{
+  background:linear-gradient(120deg,#212121 0%, #131313 100%);
+  @apply border border-gray-900
+}
+.contact_input{
+    background:linear-gradient(120deg,#212121 0%, #131313 100%);
+}
+.active{
+  color: #fff!important;
+}
+.navigation_link{
+  @apply text-gray-500
+}
+.navigation_link:hover{
+  @apply hover:text-white
+}
+.connect_button{
+  background: linear-gradient(120deg,#212121 100%, #131313 0%);
+  @apply p-2 rounded-xl font-medium cursor-pointer outline-1 outline-gray-800 px-7 py-2;
+  transition: color .5s;
+}
+.connect_button:hover{
+  background: #fff;
+  @apply text-black
+}
+
+
+
+
+.scrollerText {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroller-text 15s linear infinite;
+    -webkit-animation: scroller-text 15s linear infinite;
+    animation: scroller-text 15s linear infinite;
+}
+/* for Firefox */
+@-moz-keyframes scroller-text {
+    from {
+        -moz-transform: translateX(20%);
+    }
+
+    to {
+        -moz-transform: translateX(-50%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes scroller-text {
+    from {
+        -webkit-transform: translateX(20%);
+    }
+
+    to {
+        -webkit-transform: translateX(-50%);
+    }
+}
+
+@keyframes scroller-text {
+    from {
+        -moz-transform: translateX(20%);
+        -webkit-transform: translateX(20%);
+        transform: translateX(20%);
+    }
+
+    to {
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+
+
+/* xs */
+@media (width < 40rem) { 
+.navigation-container{
+  background: rgba(35, 35, 35, 0.5);
+  transition: all 1s;
+  @apply h-screen w-screen absolute top-0 right-0 flex justify-center 
+}  
+.navigation{
+  background: rgba(44, 58, 71,0.6)  ;
+  @apply flex flex-col w-full h-[50%] items-center justify-around
+}
+}
+/* sm */
+@media (width >= 40rem) { 
+}
+@media (width >= 48rem) { }
+@media (width >= 64rem) { }
+@media (width >= 80rem) { }
+@media (width >= 96rem) { }
