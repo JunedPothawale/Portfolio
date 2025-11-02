@@ -2,7 +2,7 @@
   "name": "junedpothawale",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://JunedPothawale.github.io/Portfolio",
+  "homepage": "https://junedpothawale.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",

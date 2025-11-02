@@ -7,7 +7,6 @@ const ExperienceCard = (props) => {
         <div className="w-full card rounded-3xl p-5">
           <h4 className="text-white uppercase text-lg">{props.data.type}</h4>
           <div className="flex flex-col mt-2 gap-8">
-            {console.log(props.data.list)}
             {props.data.list.map((list) => {
               return (
                 <>
