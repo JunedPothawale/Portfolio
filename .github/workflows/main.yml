@@ -1,0 +1,35 @@
+name: Build and Deploy React App
+
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to the main branch
+  pull_request:
+    branches:
+      - main # Trigger on pull requests to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # Specify the runner environment
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action to check out your repository code
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Specify your desired Node.js version
+
+      - name: Install dependencies
+        run: npm install # Install project dependencies
+
+      - name: Build React app
+        run: npm run build # Run your build script (defined in package.json)
+
+      - name: Deploy to GitHub Pages (optional)
+        if: github.ref == 'refs/heads/main' # Only deploy from the main branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build # Directory containing your built React app
