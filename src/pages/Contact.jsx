@@ -75,7 +75,7 @@ const Contact = () => {
               ></textarea>
               <input
                 type="submit"
-                className="connect_button w-[25%] bg-gray-600 hidden sm:block capitalize"
+                className="connect_button w-full md:w-[25%] bg-gray-600 capitalize"
                 placeholder="Send Message"
               />
             </form>
