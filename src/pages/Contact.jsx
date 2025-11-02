@@ -3,7 +3,7 @@ import ContactCard from "./../components/common/contact/ContactCard";
 const Contact = () => {
   return (
     <>
-      <div className="grid grid-cols-6 lg:grid-cols-11 mx-5 lg:mx-0 gap-4 my-5">
+      <div className="grid grid-cols-6 lg:grid-cols-11 mx-5 lg:mx-0 gap-4 my-2">
         <div className="lg:col-span-3 col-span-6 lg:col-start-2 order-last lg:order-first flex">
           <div className="w-full h-auto flex flex-row lg:flex-col flex-wrap gap-10">
             <h1 className="font-light w-full uppercase text-2xl md:text-xl text-center md:text-left">

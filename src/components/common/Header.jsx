@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [navigation, setNavigation] = useState(false);
+  const handleNavClick = () => setNavigation(false);
+
   return (
     <>
       <div className="w-[90%] mx-auto flex justify-between items-center px-5">
@@ -20,16 +22,32 @@ const Header = () => {
           } sm:translate-x-[0%]`}
         >
           <div className="navigation sm:space-x-7 md:space-x-10">
-            <NavLink to="/" className="navigation_link">
+            <NavLink
+              to="/"
+              onClick={handleNavClick}
+              className="navigation_link"
+            >
               Home
             </NavLink>
-            <NavLink to="/work" className="navigation_link">
+            <NavLink
+              to="/work"
+              onClick={handleNavClick}
+              className="navigation_link"
+            >
               Work
             </NavLink>
-            <NavLink to="/about" className="navigation_link">
+            <NavLink
+              to="/about"
+              onClick={handleNavClick}
+              className="navigation_link"
+            >
               About
             </NavLink>
-            <NavLink to="/contact" className="navigation_link">
+            <NavLink
+              to="/contact"
+              onClick={handleNavClick}
+              className="navigation_link"
+            >
               Contact
             </NavLink>
           </div>
@@ -48,6 +66,12 @@ const Header = () => {
           </button>
         </div>
       </div>
+      {navigation && (
+        <div
+          className="fixed inset-0 bg-black opacity-40 sm:hidden z-10"
+          onClick={() => setNavigation(false)}
+        ></div>
+      )}
     </>
   );
 };
