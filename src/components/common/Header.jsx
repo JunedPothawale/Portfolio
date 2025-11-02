@@ -66,12 +66,6 @@ const Header = () => {
           </button>
         </div>
       </div>
-      {navigation && (
-        <div
-          className="fixed inset-0 bg-black opacity-40 sm:hidden z-10"
-          onClick={() => setNavigation(false)}
-        ></div>
-      )}
     </>
   );
 };
