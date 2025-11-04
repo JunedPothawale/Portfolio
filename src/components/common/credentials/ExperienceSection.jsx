@@ -18,9 +18,10 @@ const ExperienceSection = (props) => {
                   <h1 className="text-[.9rem] tracking-wide text-gray-500">
                     {list.profile}
                   </h1>
-                  <h1 className="text-[1rem] tracking-wide text-gray-300">
-                    {list.description}
-                  </h1>
+                  <h1
+                    className="text-[1rem] tracking-wide text-gray-300"
+                    dangerouslySetInnerHTML={{ __html: list.description }}
+                  ></h1>
                 </div>
               </>
             );

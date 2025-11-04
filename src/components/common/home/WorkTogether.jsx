@@ -14,7 +14,7 @@ const WorkTogether = () => {
                   Let's <br />
                 </span>
                 work
-                <span className="text-blue-500 font-bold lowercase">
+                <span className="text-blue-500 ml-2 font-bold lowercase">
                   together.
                 </span>
               </h4>

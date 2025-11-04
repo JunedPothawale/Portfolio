@@ -4,10 +4,10 @@ const ProfileCard = () => {
   return (
     <>
       <NavLink className="group" to="/about">
-        <div className="card rounded-3xl grid h-full grid-cols-1 md:grid-cols-2 p-10">
-          <div className="col-span-1">
+        <div className="card rounded-3xl grid h-full grid-cols-1 md:grid-cols-2 p-10 md:pl-0">
+          <div className="col-span-1 ">
             <img
-              className="w-[80%] mx-auto aspect-square bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-tl-[30px]  rounded-br-[30px]"
+              className="w-[80%] h-full mx-auto aspect-square bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-tl-[30px]  rounded-br-[30px] "
               src="/images/me.png"
               alt=""
             />
@@ -21,7 +21,9 @@ const ProfileCard = () => {
                 Juned Pothawale
               </h4>
               <h4 className="secondary_font text-md text-gray-600  text-center md:text-left">
-                A Pune Based Freelance Looking For Challenges And New Ideas.
+                A Pune-based full-stack developer passionate about crafting
+                scalable digital products that merge design, logic, and
+                performance.
               </h4>
             </div>
             <div className="arrow_next place-items-end">

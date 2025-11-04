@@ -30,7 +30,7 @@ export const ScrollFeature = () => {
 
   return (
     <>
-      <div className="card text-gray-500 h-[50px] overflow-x-hidden rounded-full text-sm flex justify-center items-center flex-row w-full">
+      <div className="card text-gray-500 h-[50px] xl:h-full overflow-x-hidden rounded-full text-sm flex justify-center items-center flex-row w-full">
         <div className="w-[90%] md:w-[93%] overflow-x-hidden">
           <div className="flex scrollerText">{SCROLL_TEXT_CONTENT}</div>
         </div>
