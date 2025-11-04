@@ -27,25 +27,25 @@ const ProfileCard = () => {
           <div className="socialIcon flex space-x-3 justify-center py-5">
             <NavLink
               to="https://www.instagram.com/itz_m.juned"
-              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
+              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[20%] md:w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
             >
               <FaInstagram className="text-2xl group-hover:text-black" />
             </NavLink>
             <NavLink
               to="mailto:junedpothawaleofficial@gmail.com"
-              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
+              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[20%] md:w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
             >
               <SiGmail className="text-2xl group-hover:text-black" />
             </NavLink>
             <NavLink
               to="https://www.linkedin.com/in/junedpothawale"
-              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
+              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[20%] md:w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
             >
               <FaLinkedinIn className="text-2xl group-hover:text-black" />
             </NavLink>
             <NavLink
               to="https://wa.me/+917588928677"
-              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
+              className="bg-(--button_card) group border border-gray-900 hover:bg-white w-[20%] md:w-[15%] transition flex justify-center items-center rounded-full aspect-square cursor-pointer"
             >
               <FaWhatsapp className="text-2xl group-hover:text-black" />
             </NavLink>

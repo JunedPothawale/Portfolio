@@ -9,13 +9,13 @@ const Header = () => {
   return (
     <>
       <div className="w-[90%] mx-auto flex justify-between items-center px-5">
-        <div className="logo">
+        <NavLink to="/" className="logo">
           <img
             className="w-50 aspect-video"
             src="/images/logo/white-logo-400.200-removebg-preview.png"
             alt="Juned Pothawale Logo"
           />
-        </div>
+        </NavLink>
         <div
           className={`navigation-container text-center z-10 w-full ${
             navigation ? "translate-x-[0%]" : "translate-x-[-100vw]"

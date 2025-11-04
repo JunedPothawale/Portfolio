@@ -6,6 +6,7 @@ import Work from "../pages/Work";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
 import Credentials from "../pages/Credentials";
+import Services from "./../pages/Services";
 
 const Router = () => {
   return (
@@ -18,7 +19,7 @@ const Router = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/credentials" element={<Credentials />} />
-            <Route path="/services" element={<Credentials />} />
+            <Route path="/services" element={<Services />} />
           </Route>
           <Route path="/admin" element=""></Route>
           <Route

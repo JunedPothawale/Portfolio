@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Credentials = {
   image: "/images/svg/junedSignature.svg",
   subheading: "more about me",
@@ -14,56 +12,78 @@ export const Projects = {
 };
 export const GFonts = {
   image: "/images/gfonts.png",
-  subheading: "Blog",
-  heading: "GFonts",
-  url: "",
+  subheading: "We Are Offering",
+  heading: "Services",
+  url: "/services",
 };
 export const WorkCard = [
   {
     id: 1,
-    name: "WEB Designing",
-    img: "/images/project1.jpeg",
+    name: "Dashboard",
+    img: "/public/images/project/productry-2.png",
     type: "Web Development",
-    url: "https://react-icons.github.io/react-icons/search/#q=bars",
+    url: "#",
   },
   {
     id: 2,
-    name: "Full StacK App Development",
-    img: "/images/project5.jpeg",
+    name: "Landing Sites",
+    img: "/public/images/project/shubham_infra.png",
     type: "App Development",
-    url: "https://react-icons.github.io/react-icons/search/#q=bars",
+    url: "#",
   },
 ];
 export const ProjectCardData = [
   {
     id: 1,
     name: "Tradeverse Dashboard",
-    img: "/images/project3.jpeg",
-    type: "Web designing",
-    url: "https://react-icons.github.io/react-icons/search/#q=bars",
+    img: "/images/project/productry-2.png",
+    type: "Full Stack Web Application",
+    url: "#",
   },
   {
     id: 2,
-    name: "Tradeverse",
-    img: "/images/project4.jpeg",
-    type: "Web designing",
-    url: "https://react-icons.github.io/react-icons/search/#q=bars",
+    name: "Productry Dashboard",
+    img: "/images/project/productry-dashboard.png",
+    type: "Web Dashboard (Livewire + Laravel)",
+    url: "#",
   },
   {
     id: 3,
-    name: "Tradeverse Dashboard",
-    img: "/images/project5.jpeg",
-    type: "Web designing",
-    url: "https://react-icons.github.io/react-icons/search/#q=bars",
+    name: "Productry Dashboard V2.0",
+    img: "/public/images/project/productry-dahboard.png",
+    type: "Company Dashboard",
+    url: "#",
   },
   {
     id: 4,
-    name: "Tradeverse",
-    img: "/images/project6.jpeg",
-    type: "Web designing",
-    url: "https://react-icons.github.io/react-icons/search/#q=bars",
+    name: "GSL Education CRM",
+    img: "/images/project/productry3.png",
+    type: "Web Application",
+    url: "#",
+  },
+  {
+    id: 5,
+    name: "Indian Matrimony Dashboard",
+    img: "/public/images/project/image.png",
+    type: "Laravel Dashboard",
+    url: "#",
+  },
+  {
+    id: 6,
+    name: "Freelance Projects",
+    img: "/images/freelance-projects.jpeg",
+    type: "Client-Based Solutions",
+    url: "#",
+  },
+  {
+    id: 7,
+    name: "Shubham Infra Landing Site",
+    img: "/public/images/project/Shubham infra.png",
+    type: "Client-Based Solutions",
+    url: "#",
   },
 ];
+
 export const Experience = {
   type: "Experience",
   list: [
