@@ -1,5 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
+import About from "./../../../pages/About";
 
 const SocialProfileCard = () => {
   return (
@@ -17,10 +18,11 @@ const SocialProfileCard = () => {
             </a>
             {/* Resume Download */}
             <a
-              href="https://www.github.com/junedpothawale"
+              href="/resume/Juned_Pothawale_Software_Dev.pdf"
               target="_blank"
               className="social_card text-white text-4xl p-5 rounded-full border hover:text-black hover:bg-white
               transition delay-200"
+              download={true}
             >
               <AiOutlineDownload />
             </a>

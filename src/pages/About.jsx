@@ -10,12 +10,23 @@ const About = () => {
     <>
       <div className="h-full w-[90%] md:w-[80%] lg:w-[90%] xl:w-[80%] mx-auto grid gap-4">
         <div className="grid grid-cols-12 w-full gap-4">
-          <div className="col-span-12 md:col-span-8 md:col-start-3 w-full lg:col-span-4 card rounded-4xl p-6 md:p-3 lg:p-5  border border-gray-800 aspect-square">
-            <img
-              className="w-full bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-4xl"
-              src="/images/me.png"
-              alt="Juned Pothawale Image"
-            />
+          <div className="col-span-12 w-full lg:col-span-4">
+            <div className="grid grid-cols-3 h-full md:grid-cols-6 lg:md:grid-cols-3 items-baseline-last gap-4">
+              <div className="card p-6 col-span-3 md:p-3 lg:p-5  border border-gray-800 aspect-square rounded-4xl">
+                <img
+                  className="w-full bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-4xl"
+                  src="/images/me.png"
+                  alt="Juned Pothawale Image"
+                />
+              </div>
+              <div className="card p-6 col-span-3 md:p-3 lg:p-5  border border-gray-800 aspect-square rounded-4xl">
+                <img
+                  className="w-full bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-4xl"
+                  src="/images/me.png"
+                  alt="Juned Pothawale Image"
+                />
+              </div>
+            </div>
           </div>
           <div className="col-span-12 lg:col-span-8 h-full">
             <div className="summary flex justify-around items-center py-5">
@@ -46,14 +57,14 @@ const About = () => {
                 type: "Education",
                 list: [
                   {
-                    timeframe: "2007 - 2017",
-                    name: "Framer Designer & Developer",
-                    profile: "Software Engineer",
+                    timeframe: "March 2017",
+                    name: "Dinbai High School",
+                    profile: "Secondary Schooling",
                   },
                   {
-                    timeframe: "2007 - 2017",
-                    name: "Framer Designer & Developer",
-                    profile: "Software Engineer",
+                    timeframe: "2018 - 2021",
+                    name: "Anjuman Polytechnic Nagpur",
+                    profile: "Computer Science",
                   },
                 ],
               }}
@@ -63,17 +74,17 @@ const About = () => {
           <div className="col-span-6">
             <ExperienceCard
               data={{
-                type: "Education",
+                type: "Experience",
                 list: [
                   {
-                    timeframe: "2007 - 2017",
-                    name: "Framer Designer & Developer",
+                    timeframe: "11/21 – 10/22",
+                    name: "Whizzact Solution",
                     profile: "Software Engineer",
                   },
                   {
-                    timeframe: "2007 - 2017",
-                    name: "Framer Designer & Developer",
-                    profile: "Software Engineer",
+                    timeframe: "Now",
+                    name: "Want to Know More Lets Connect ",
+                    profile: "Freelancer",
                   },
                 ],
               }}

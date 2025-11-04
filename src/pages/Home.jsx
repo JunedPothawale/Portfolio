@@ -35,7 +35,7 @@ const Home = () => {
                     image: "/images/my-works.png",
                     subheading: "SHOWCASE",
                     heading: "Projects",
-                    url: "/blog",
+                    url: "/work",
                   }}
                 />
               </div>

@@ -1,9 +1,7 @@
-import React from "react";
-
 const WorkTogether = () => {
   return (
     <>
-      <a className="group" href="">
+      <a className="group" href="/contact">
         <div className="prop_cards flex flex-col w-full h-full px-7 rounded-3xl card justify-center items-center">
           <div className="prop_card_image h-full w-full text-5xl p-0 text-gray-100">
             <img src="/images/icons/png/icon2.png" alt="" />
@@ -14,7 +12,7 @@ const WorkTogether = () => {
                 <span className="">
                   Let's <br />
                 </span>
-                work{" "}
+                work
                 <span className="text-blue-500 font-bold lowercase">
                   together.
                 </span>
