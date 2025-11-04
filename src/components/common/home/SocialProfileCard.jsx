@@ -1,31 +1,31 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
-import About from "./../../../pages/About";
+import { NavLink } from "react-router-dom";
 
 const SocialProfileCard = () => {
   return (
     <>
-      <div className="group">
+      <NavLink to="/contact" className="group">
         <div className="prop_cards flex flex-col w-full h-full rounded-3xl p-7 card justify-center items-center">
           <div className="prop_card_image rounded-3xl flex justify-evenly flex-wrap items-center h-full w-full place-items-center card drop-shadow-2xl p-5 text-white">
-            <a
-              href="https://www.github.com/junedpothawale"
+            <NavLink
+              to="https://www.github.com/junedpothawale"
               target="_blank"
               className="social_card text-white text-4xl p-5 rounded-full border hover:text-black hover:bg-white
               transition delay-200"
             >
               <FiGithub />
-            </a>
+            </NavLink>
             {/* Resume Download */}
-            <a
-              href="/resume/Juned_Pothawale_Software_Dev.pdf"
+            <NavLink
+              to="/resume/Juned_Pothawale_Software_Dev.pdf"
               target="_blank"
               className="social_card text-white text-4xl p-5 rounded-full border hover:text-black hover:bg-white
               transition delay-200"
               download={true}
             >
               <AiOutlineDownload />
-            </a>
+            </NavLink>
           </div>
           <div className="prop_card_content flex items-end mt-8 w-full h-full justify-between">
             <div className="prop_card_subcontent">
@@ -65,7 +65,7 @@ const SocialProfileCard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </NavLink>
     </>
   );
 };

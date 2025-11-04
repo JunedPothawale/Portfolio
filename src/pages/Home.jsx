@@ -49,7 +49,7 @@ const Home = () => {
                     image: "/images/gfonts.png",
                     subheading: "Blog",
                     heading: "GFonts",
-                    url: "/blog",
+                    url: "",
                   }}
                 />
               </div>

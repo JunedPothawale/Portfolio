@@ -1,8 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const CommonCard = (props) => {
   return (
-    <a className="group" href={props.data.url}>
+    <NavLink className="group" to={props.data.url}>
       <div className="prop_cards flex flex-col w-full h-full p-7 card rounded-4xl justify-center items-center">
         <div className="prop_card_image h-[80%] w-[80%] flex justify-center items-center">
           <img className="" src={props.data.image} alt="" />
@@ -47,7 +48,7 @@ const CommonCard = (props) => {
           </div>
         </div>
       </div>
-    </a>
+    </NavLink>
   );
 };
 

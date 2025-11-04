@@ -1,7 +1,9 @@
+import { NavLink } from "react-router-dom";
+
 const ProfileCard = () => {
   return (
     <>
-      <a className="group" href="/about">
+      <NavLink className="group" to="/about">
         <div className="card rounded-3xl grid h-full grid-cols-1 md:grid-cols-2 p-10">
           <div className="col-span-1">
             <img
@@ -53,7 +55,7 @@ const ProfileCard = () => {
             </div>
           </div>
         </div>
-      </a>
+      </NavLink>
     </>
   );
 };
