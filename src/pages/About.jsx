@@ -27,12 +27,12 @@ const About = () => {
               <div className="card hidden md:block p-6 col-span-3 md:p-3 lg:p-5  border border-gray-800 aspect-square rounded-4xl">
                 <img
                   className="w-full bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-4xl"
-                  src="/public/images/logo/black-logo-400.200-removebg-preview.png"
+                  src="/images/logo/black-logo-400.200-removebg-preview.png"
                   alt="Juned Pothawale Image"
                 />
                 <img
                   className="w-full  rounded-4xl"
-                  src="/public/images/logo/white-logo-400.200-removebg-preview.png"
+                  src="/images/logo/white-logo-400.200-removebg-preview.png"
                   alt="Juned Pothawale Image"
                 />
               </div>
