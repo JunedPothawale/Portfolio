@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const SocialProfileCard = () => {
   return (
     <>
-      <NavLink to="/contact" className="group">
+      <div className="group">
         <div className="prop_cards flex flex-col w-full h-full rounded-3xl p-7 card justify-center items-center">
           <div className="prop_card_image rounded-3xl flex justify-evenly flex-wrap items-center h-full w-full place-items-center card drop-shadow-2xl p-5 text-white">
             <NavLink
@@ -27,7 +27,10 @@ const SocialProfileCard = () => {
               <AiOutlineDownload />
             </NavLink>
           </div>
-          <div className="prop_card_content flex items-end mt-8 w-full h-full justify-between">
+          <NavLink
+            to="/contact"
+            className="prop_card_content flex items-end mt-8 w-full h-full justify-between"
+          >
             <div className="prop_card_subcontent">
               <h4 className="text-gray-500 text-sm uppercase">STAY WITH ME</h4>
               <h4 className="text-white text-lg font-bold capitalize">
@@ -63,9 +66,9 @@ const SocialProfileCard = () => {
                 ></path>
               </svg>
             </div>
-          </div>
+          </NavLink>
         </div>
-      </NavLink>
+      </div>
     </>
   );
 };

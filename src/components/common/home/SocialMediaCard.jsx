@@ -4,18 +4,18 @@ import { NavLink } from "react-router-dom";
 
 const SocialMediaCard = () => {
   return (
-    <NavLink to="/services">
+    <div>
       <div className="prop_cards group flex flex-col w-full h-full rounded-3xl p-7 card justify-center items-center">
         <div className="prop_card_image flex items-center h-full my-13 w-full justify-evenly text-5xl text-gray-100">
           <NavLink
-            href="https://www.instagram.com/itz_m.juned"
+            to="https://www.instagram.com/itz_m.juned"
             target="_blank"
             className="icon_instagram"
           >
             <FaInstagram className="hover:text-white delay-300" />
           </NavLink>
           <NavLink
-            href="mailto:junedpothawaleofficial@gmail.com"
+            to="mailto:junedpothawaleofficial@gmail.com"
             target="_blank"
             className="icon_google"
           >
@@ -23,21 +23,24 @@ const SocialMediaCard = () => {
           </NavLink>
 
           <NavLink
-            href="https://www.linkedin.com/in/junedpothawale"
+            to="https://www.linkedin.com/in/junedpothawale"
             target="_blank"
             className="icon_linkedin"
           >
             <FaLinkedinIn className="hover:text-white delay-300" />
           </NavLink>
           <NavLink
-            href="https://wa.me/+917588928677"
+            to="https://wa.me/+917588928677"
             target="_blank"
             className="icon_whatsapp"
           >
             <FaWhatsapp className="hover:text-white delay-300" />
           </NavLink>
         </div>
-        <div className="prop_card_content flex items-end w-full h-full justify-between">
+        <NavLink
+          to="/services"
+          className="prop_card_content flex items-end w-full h-full justify-between"
+        >
           <div className="prop_card_subcontent">
             <h4 className="text-gray-500 text-sm uppercase">Connect With Me</h4>
             <h4 className="text-white text-lg font-bold capitalize">
@@ -73,9 +76,9 @@ const SocialMediaCard = () => {
               ></path>
             </svg>
           </div>
-        </div>
+        </NavLink>
       </div>
-    </NavLink>
+    </div>
   );
 };
 

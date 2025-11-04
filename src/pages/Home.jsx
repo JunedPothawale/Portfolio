@@ -5,6 +5,7 @@ import SocialMediaCard from "./../components/common/home/SocialMediaCard";
 import SocialProfileCard from "../components/common/home/SocialProfileCard";
 import ExperienceCard from "./../components/common/home/ExperienceCard";
 import WorkTogether from "./../components/common/home/WorkTogether";
+import { Credentials, GFonts, Projects } from "../utils/JsonDataUpload";
 
 const Home = () => {
   return (
@@ -20,38 +21,17 @@ const Home = () => {
                 <ScrollFeature />
               </div>
               <div className="col-span-2 md:col-span-1 h-full w-full">
-                <CommonCard
-                  data={{
-                    image: "/images/svg/junedSignature.svg",
-                    subheading: "more about me",
-                    heading: "Credentials",
-                    url: "/credentials",
-                  }}
-                />
+                <CommonCard data={Credentials} />
               </div>
               <div className="col-span-2 md:col-span-1  h-full w-full">
-                <CommonCard
-                  data={{
-                    image: "/images/my-works.png",
-                    subheading: "SHOWCASE",
-                    heading: "Projects",
-                    url: "/work",
-                  }}
-                />
+                <CommonCard data={Projects} />
               </div>
             </div>
           </div>
           <div className="col-span-1 lg:col-span-2 h-full">
             <div className="grid grid-cols-4 gap-4 h-full">
               <div className="col-span-4 md:col-span-2 lg:col-span-1 h-full">
-                <CommonCard
-                  data={{
-                    image: "/images/gfonts.png",
-                    subheading: "Blog",
-                    heading: "GFonts",
-                    url: "",
-                  }}
-                />
+                <CommonCard data={GFonts} />
               </div>
               <div className="col-span-4 md:col-span-4 md:order-first lg:order-none lg:col-span-2 h-full">
                 <SocialMediaCard />

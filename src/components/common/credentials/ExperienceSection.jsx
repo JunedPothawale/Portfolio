@@ -19,11 +19,7 @@ const ExperienceSection = (props) => {
                     {list.profile}
                   </h1>
                   <h1 className="text-[1rem] tracking-wide text-gray-300">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perspiciatis beatae sequi, illo enim velit quidem animi
-                    laborum aperiam quam porro consequatur quia perferendis
-                    incidunt, esse, quae modi. Consectetur fugiat in itaque
-                    fugit laborum dolorum.
+                    {list.description}
                   </h1>
                 </div>
               </>

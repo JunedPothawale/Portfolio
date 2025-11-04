@@ -3,7 +3,7 @@ import React from "react";
 const Preloader = () => {
   return (
     <>
-      <div className="h-screen w-screen flex justify-center items-center">
+      <div className="h-screen w-screen overflow-hidden flex justify-center items-center">
         <div className="svg-frame">
           <svg style={{ "--i": "0", "--j": "0" }}>
             <g id="out1">

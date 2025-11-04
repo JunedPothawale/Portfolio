@@ -1,5 +1,6 @@
 import ExperienceSection from "../components/common/credentials/ExperienceSection";
 import ProfileCard from "../components/common/credentials/ProfileCard";
+import { Awards, Education, Experience, Skills } from "../utils/JsonDataUpload";
 import SkillsSection from "./../components/common/credentials/SkillsSection";
 
 const Credentials = () => {
@@ -51,23 +52,7 @@ const Credentials = () => {
               <h4 className="text-lg uppercase font-semibold">EXPERIENCE</h4>
             </div>
             <div className="main_aboutme my-5 mx-5">
-              <ExperienceSection
-                data={{
-                  type: "Experience",
-                  list: [
-                    {
-                      timeframe: "11/21 – 10/22",
-                      name: "Whizzact Solution",
-                      profile: "Software Engineer",
-                    },
-                    {
-                      timeframe: "Now",
-                      name: "Want to Know More Lets Connect",
-                      profile: "Freelancer",
-                    },
-                  ],
-                }}
-              />
+              <ExperienceSection data={Experience} />
             </div>
           </div>
           <div className="aboutme_education">
@@ -75,102 +60,14 @@ const Credentials = () => {
               <h4 className="text-lg uppercase font-semibold">EDUCATION</h4>
             </div>
             <div className="main_aboutme my-5 mx-5">
-              <ExperienceSection
-                data={{
-                  type: "Education",
-                  list: [
-                    {
-                      timeframe: "March 2017",
-                      name: "Dinbai High School",
-                      profile: "Secondary Schooling",
-                    },
-                    {
-                      timeframe: "2018 - 2021",
-                      name: "Anjuman Polytechnic Nagpur",
-                      profile: "Computer Science",
-                    },
-                  ],
-                }}
-              />
+              <ExperienceSection data={Education} />
             </div>
           </div>
           <div className="aboutme_skills">
-            <SkillsSection
-              data={{
-                type: "Skills",
-                list: [
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                ],
-              }}
-            />
+            <SkillsSection data={Skills} />
           </div>
           <div className="aboutme_awards">
-            <SkillsSection
-              data={{
-                type: "Awards",
-                list: [
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                  {
-                    title: "80%",
-                    name: "Javascript",
-                    description: "Non enim praesent",
-                  },
-                ],
-              }}
-            />
+            <SkillsSection data={Awards} />
           </div>
         </div>
       </div>

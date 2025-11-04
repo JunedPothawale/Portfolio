@@ -4,6 +4,7 @@ import ExperienceCard from "../components/common/about/ExperienceCard";
 import WorkTogether from "./../components/common/home/WorkTogether";
 import SocialProfileCard from "./../components/common/home/SocialProfileCard";
 import CommonCard from "./../components/common/home/CommonCard";
+import { Credentials, Education, Experience } from "../utils/JsonDataUpload";
 
 const About = () => {
   return (
@@ -52,43 +53,11 @@ const About = () => {
 
         <div className="grid grid-cols-6 lg:grid-cols-12 gap-4">
           <div className="col-span-6">
-            <ExperienceCard
-              data={{
-                type: "Education",
-                list: [
-                  {
-                    timeframe: "March 2017",
-                    name: "Dinbai High School",
-                    profile: "Secondary Schooling",
-                  },
-                  {
-                    timeframe: "2018 - 2021",
-                    name: "Anjuman Polytechnic Nagpur",
-                    profile: "Computer Science",
-                  },
-                ],
-              }}
-            />
+            <ExperienceCard data={Education} />
           </div>
 
           <div className="col-span-6">
-            <ExperienceCard
-              data={{
-                type: "Experience",
-                list: [
-                  {
-                    timeframe: "11/21 – 10/22",
-                    name: "Whizzact Solution",
-                    profile: "Software Engineer",
-                  },
-                  {
-                    timeframe: "Now",
-                    name: "Want to Know More Lets Connect ",
-                    profile: "Freelancer",
-                  },
-                ],
-              }}
-            />
+            <ExperienceCard data={Experience} />
           </div>
         </div>
 
@@ -100,14 +69,7 @@ const About = () => {
             <WorkTogether />
           </div>
           <div className="col-span-3 w-full">
-            <CommonCard
-              data={{
-                image: "/images/svg/junedSignature.svg",
-                subheading: "more about me",
-                heading: "Credentials",
-                url: "/credentials",
-              }}
-            />
+            <CommonCard data={Credentials} />
           </div>
         </div>
       </div>

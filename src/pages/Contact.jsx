@@ -1,3 +1,8 @@
+import {
+  ContactAddressTo,
+  ContactMailTo,
+  ContactPhoneNumberTo,
+} from "../utils/JsonDataUpload";
 import ContactCard from "./../components/common/contact/ContactCard";
 
 const Contact = () => {
@@ -9,35 +14,9 @@ const Contact = () => {
             <h1 className="font-light w-full uppercase text-2xl md:text-xl text-center md:text-left">
               Contact Info
             </h1>
-            <ContactCard
-              data={{
-                id: 1,
-                icon: "fa-regular fa-envelope",
-                name: "Mail Us",
-                href: "mailto:",
-                line1: "junedwebsole@gmail.com",
-                line2: "junedpothawaleofficial@gmail.com",
-              }}
-            />
-            <ContactCard
-              data={{
-                id: 1,
-                icon: "fa-solid fa-phone",
-                href: "tel:",
-                name: "Contact Us",
-                line1: "+91 7776896286",
-                line2: "+91 7588928677",
-              }}
-            />
-            <ContactCard
-              data={{
-                id: 1,
-                icon: "fa-regular fa-paper-plane",
-                name: "Location",
-                line1: "Wagholi, Pune 412207",
-                line2: "Maharashtra, India",
-              }}
-            />
+            <ContactCard data={ContactMailTo} />
+            <ContactCard data={ContactPhoneNumberTo} />
+            <ContactCard data={ContactAddressTo} />
           </div>
         </div>
         <div className="col-span-6 card rounded-2xl p-10 relative space-y-4">
@@ -46,7 +25,7 @@ const Contact = () => {
               Let's work <span className="text-blue-500">together.</span>
             </h1>
             <div className="arrow absolute top-0 right-15">
-              <img src="/images/icons/png/icon2.png" alt="" srcset="" />
+              <img src="/images/icons/png/icon2.png" alt="" />
             </div>
           </div>
           <div className="contact_form w-full">
