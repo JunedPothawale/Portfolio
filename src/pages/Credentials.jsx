@@ -14,10 +14,12 @@ const Credentials = () => {
           {/* About Me */}
           <div className="aboutme_summary">
             <div className="tagline w-full">
-              <h4 className="text-lg uppercase font-semibold">About Me</h4>
+              <h4 className="text-lg uppercase font-semibold text-blue-500">
+                About Me
+              </h4>
             </div>
             <div className="main_aboutme my-5 mx-5">
-              <div className="discription text-white h-full">
+              <div className="discription text-gray-300 h-full">
                 I’m a Full-Stack Developer and Software Engineer who loves
                 building fast, scalable, and visually engaging digital products.
                 <br />
@@ -49,7 +51,9 @@ const Credentials = () => {
           </div>
           <div className="aboutme_experience">
             <div className="tagline w-full">
-              <h4 className="text-lg uppercase font-semibold">EXPERIENCE</h4>
+              <h4 className="text-lg uppercase font-semibold text-blue-500">
+                EXPERIENCE
+              </h4>
             </div>
             <div className="main_aboutme my-5 mx-5">
               <ExperienceSection data={Experience} />
@@ -57,7 +61,9 @@ const Credentials = () => {
           </div>
           <div className="aboutme_education">
             <div className="tagline w-full">
-              <h4 className="text-lg uppercase font-semibold">EDUCATION</h4>
+              <h4 className="text-lg uppercase font-semibold text-blue-500">
+                EDUCATION
+              </h4>
             </div>
             <div className="main_aboutme my-5 mx-5">
               <ExperienceSection data={Education} />

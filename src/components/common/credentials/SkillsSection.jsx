@@ -3,8 +3,10 @@ import React from "react";
 const SkillsSection = (props) => {
   return (
     <>
-      <div className="tagline ">
-        <h4 className="text-lg uppercase font-semibold">{props.data?.type}</h4>
+      <div className="tagline">
+        <h4 className="text-xl uppercase text-blue-500 font-semibold">
+          {props.data?.type}
+        </h4>
       </div>
       <div className="main_aboutme my-5 mx-5 space-y-6">
         {props.data?.list?.map((mainjson) => {
@@ -12,11 +14,11 @@ const SkillsSection = (props) => {
             <>
               <div className="grid grid-cols-12">
                 <div className="tagline col-span-12">
-                  <h4 className="text-lg text-blue-500 uppercase font-semibold">
+                  <h4 className="text-lg text-blue-400 uppercase font-semibold">
                     {mainjson?.category}
                   </h4>
                 </div>
-                <div className="skill col-span-12 grid grid-cols-12 gap-6 mt-5">
+                <div className="skill col-span-12 ml-5 grid grid-cols-6 md:grid-cols-12 gap-4 mt-5">
                   {mainjson.list?.map((list) => {
                     return (
                       <>
