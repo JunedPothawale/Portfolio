@@ -4,7 +4,11 @@ import ExperienceCard from "../components/common/about/ExperienceCard";
 import WorkTogether from "./../components/common/home/WorkTogether";
 import SocialProfileCard from "./../components/common/home/SocialProfileCard";
 import CommonCard from "./../components/common/home/CommonCard";
-import { Credentials, Education, Experience } from "../utils/JsonDataUpload";
+import {
+  Credentials,
+  Education,
+  ExperienceAbout,
+} from "../utils/JsonDataUpload";
 
 const About = () => {
   return (
@@ -20,10 +24,15 @@ const About = () => {
                   alt="Juned Pothawale Image"
                 />
               </div>
-              <div className="card p-6 col-span-3 md:p-3 lg:p-5  border border-gray-800 aspect-square rounded-4xl">
+              <div className="card hidden md:block p-6 col-span-3 md:p-3 lg:p-5  border border-gray-800 aspect-square rounded-4xl">
                 <img
                   className="w-full bg-linear-to-r from-[#6484EB] to-[#67BCE6] rounded-4xl"
-                  src="/images/me.png"
+                  src="/public/images/logo/black-logo-400.200-removebg-preview.png"
+                  alt="Juned Pothawale Image"
+                />
+                <img
+                  className="w-full  rounded-4xl"
+                  src="/public/images/logo/white-logo-400.200-removebg-preview.png"
                   alt="Juned Pothawale Image"
                 />
               </div>
@@ -57,7 +66,7 @@ const About = () => {
           </div>
 
           <div className="col-span-6">
-            <ExperienceCard data={Experience} />
+            <ExperienceCard data={ExperienceAbout} />
           </div>
         </div>
 

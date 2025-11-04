@@ -23,11 +23,16 @@ const SkillsSection = (props) => {
                     return (
                       <>
                         <div className=" col-span-6 space-y-1">
-                          <h6 className="text-sm text-gray-500">
-                            {list?.percent}
-                          </h6>
+                          <div className="flex justify-between">
+                            <h6 className="text-sm text-gray-500">
+                              {list?.percent}
+                            </h6>
+                            {/* <h6 className="text-sm text-gray-500">
+                              {list?.id}
+                            </h6> */}
+                          </div>
                           <h3 className="text-lg capitalize font-semibold">
-                            {list.skill}
+                            {list?.skill}
                           </h3>
                           <h4 className="text-xs text-gray-500 capitalize">
                             {list?.description}

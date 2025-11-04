@@ -72,31 +72,58 @@ export const Experience = {
       name: "Avinya Productry Technologies",
       profile: "Tech Lead & Software Engineer",
       description:
-        "Led and mentored a dynamic development team while designing the architecture of the Productry Dashboard. Defined best practices for scalability and code quality, and deployed complete solutions on AWS, ensuring a stable, high-performance infrastructure. <br/> Key Skills: Angular, Laravel, AWS, Team Leadership",
+        "Led and mentored a dynamic development team while designing the architecture of the Productry Dashboard. Defined best practices for scalability and code quality, and deployed complete solutions on AWS, ensuring a stable, high-performance infrastructure.<br/>Key Skills: Angular, Laravel, AWS, Team Leadership",
     },
     {
       timeframe: "Nov 2021 – Oct 2022",
       name: "Whizzact Solution",
       profile: "Software Engineer",
       description:
-        "Spearheaded the design and development of the Tradeverse Dashboard, a powerful stock market management system.Integrated APIs for real-time data visualization and optimized execution flows for better user performance.<br/>Key Skills: Angular, Java Spring, API Integration",
+        "Spearheaded the design and development of the Tradeverse Dashboard, a powerful stock market management system. Integrated APIs for real-time data visualization and optimized execution flows for better user performance.<br/>Key Skills: Angular, Java Spring, API Integration",
     },
     {
-      timeframe: "Nov 2021 – Oct 2022",
+      timeframe: "Aug 2023 – Oct 2023",
       name: "Twango Social Media Pvt. Ltd.",
       profile: "Laravel Developer",
       description:
-        "Enhanced the existing Hans Dashboard by introducing advanced filtering and user permission systems.Improved performance, eliminated bugs, and delivered a smoother, secure experience for end-users.<br/>Key Skills: Laravel, MySQL, Role-Based Access Control",
+        "Enhanced the existing Hans Dashboard by introducing advanced filtering and user permission systems. Improved performance, eliminated bugs, and delivered a smoother, secure experience for end-users.<br/>Key Skills: Laravel, MySQL, Role-Based Access Control",
     },
     {
       timeframe: "Jun 2020 – Aug 2020",
       name: "Qaswa Technologies",
       profile: "Full Stack Java Developer Intern",
       description:
-        "Gained foundational experience in full-stack development, CRUD operations, and front-end integration.Developed a strong understanding of data manipulation and web application workflows.<br/>Key Skills: Java, JDBC, HTML, CSS",
+        "Gained foundational experience in full-stack development, CRUD operations, and front-end integration. Developed a strong understanding of data manipulation and web application workflows.<br/>Key Skills: Java, JDBC, HTML, CSS",
+    },
+    {
+      timeframe: "Nov 2022 – Present",
+      name: "Freelancing",
+      profile: "Full Stack Developer",
+      description:
+        "Working as a freelance developer delivering end-to-end web solutions for clients across multiple domains. Collaborated directly with clients to design, build, and deploy dynamic websites, CRMs, and automation tools. Focused on crafting efficient architectures, ensuring scalability, and optimizing user experience.<br/>Key Skills: React, Angular, Laravel, Node.js, AWS, Client Communication",
     },
   ],
 };
+export const ExperienceAbout = {
+  type: "Experience",
+  list: [
+    {
+      timeframe: "Nov 2021 – Oct 2022",
+      name: "Whizzact Solution",
+      profile: "Software Engineer",
+      description:
+        "Spearheaded the design and development of the Tradeverse Dashboard, a powerful stock market management system. Integrated APIs for real-time data visualization and optimized execution flows for better user performance.<br/>Key Skills: Angular, Java Spring, API Integration",
+    },
+    {
+      timeframe: "Nov 2022 – Present",
+      name: "Freelancing",
+      profile: "Full Stack Developer",
+      description:
+        "Working as a freelance developer delivering end-to-end web solutions for clients across multiple domains. Collaborated directly with clients to design, build, and deploy dynamic websites, CRMs, and automation tools. Focused on crafting efficient architectures, ensuring scalability, and optimizing user experience.<br/>Key Skills: React, Angular, Laravel, Node.js, AWS, Client Communication",
+    },
+  ],
+};
+
 export const Education = {
   type: "Education",
   list: [
@@ -121,28 +148,64 @@ export const Skills = {
       category: "Frontend Development",
       list: [
         {
-          skill: "Angular",
-          percent: "90%",
+          skill: "HTML5",
+          percent: "80%",
           description:
-            "Expert in building dynamic, modular front-end architectures and dashboards with reusable components and optimized performance.",
+            "Strong grasp of semantic, accessible, and SEO-friendly HTML structures for clean web layouts.",
+        },
+        {
+          skill: "CSS3",
+          percent: "80%",
+          description:
+            "Proficient in creating responsive designs with Flexbox, Grid, transitions, and animations.",
+        },
+        {
+          skill: "JavaScript (ES6+)",
+          percent: "80%",
+          description:
+            "Solid knowledge of DOM manipulation, async programming, and modular architecture.",
+        },
+        {
+          skill: "TypeScript",
+          percent: "80%",
+          description:
+            "Type-safe and scalable front-end development for better maintainability.",
+        },
+        {
+          skill: "Angular",
+          percent: "60%",
+          description:
+            "Experience with Angular components, routing, and data binding for single-page apps.",
         },
         {
           skill: "React.js",
-          percent: "85%",
+          percent: "60%",
           description:
-            "Skilled in developing scalable, component-driven UIs and integrating REST APIs with React Hooks and state management.",
+            "Basic understanding of React components, hooks, and API-driven UI integration.",
         },
         {
-          skill: "JavaScript / TypeScript",
-          percent: "85%",
+          skill: "Ionic (Hybrid Mobile)",
+          percent: "60%",
           description:
-            "Strong command over modern ES6+ and TypeScript for building responsive and maintainable web interfaces.",
+            "Entry-level experience in building Android apps using Ionic and Angular components.",
         },
         {
-          skill: "HTML5 / CSS3 / Tailwind",
+          skill: "Tailwind CSS",
           percent: "80%",
           description:
-            "Adept at designing visually appealing, responsive layouts that balance design and performance.",
+            "Experienced in creating fast, responsive interfaces using utility-first design.",
+        },
+        {
+          skill: "Bootstrap",
+          percent: "60%",
+          description:
+            "Familiar with Bootstrap’s grid system, layout utilities, and rapid prototyping.",
+        },
+        {
+          skill: "Figma",
+          percent: "70%",
+          description:
+            "Capable of designing UI wireframes, prototypes, and collaborating on modern UI design.",
         },
       ],
     },
@@ -150,45 +213,40 @@ export const Skills = {
       category: "Backend Development",
       list: [
         {
-          skill: "Laravel / PHP",
-          percent: "85%",
-          description:
-            "Proficient in API creation, backend logic, and secure role-based systems using Laravel.",
-        },
-        {
-          skill: "Java Spring Boot",
+          skill: "Java",
           percent: "80%",
           description:
-            "Hands-on experience in backend development, database integration, and scalable architecture design.",
+            "Proficient in OOP, multithreading, and backend logic for scalable applications.",
+        },
+        {
+          skill: "PHP",
+          percent: "80%",
+          description:
+            "Good understanding of backend scripting and web server integration.",
+        },
+        {
+          skill: "Laravel",
+          percent: "80%",
+          description:
+            "Experience developing RESTful APIs, authentication, and dashboards using Laravel.",
+        },
+        {
+          skill: "Spring Boot",
+          percent: "60%",
+          description:
+            "Entry-level understanding of Java-based backend development and data integration.",
         },
         {
           skill: "Python",
-          percent: "75%",
-          description:
-            "Used for automation, backend scripting, and API-driven workflows.",
-        },
-      ],
-    },
-    {
-      category: "Database & Cloud",
-      list: [
-        {
-          skill: "MySQL",
-          percent: "75%",
-          description:
-            "Strong understanding of relational database design and optimization for high-performance queries.",
-        },
-        {
-          skill: "AWS / Cloud Deployment",
-          percent: "75%",
-          description:
-            "Deployed dashboards and microservices on AWS using EC2, S3, and Route53 for scalable, secure hosting.",
-        },
-        {
-          skill: "Docker",
           percent: "70%",
           description:
-            "Experience with containerized environments for streamlined development and deployment workflows.",
+            "Used for automation scripts, backend services, and lightweight data workflows.",
+        },
+        {
+          skill: "Selenium (Java/Python)",
+          percent: "70%",
+          description:
+            "Experience with automation testing and browser task execution using Selenium WebDriver.",
         },
       ],
     },
@@ -196,118 +254,152 @@ export const Skills = {
       category: "Tools & Platforms",
       list: [
         {
-          skill: "Git & GitHub",
+          skill: "Git",
           percent: "85%",
           description:
-            "Skilled in version control, code reviews, and collaborative workflows for team-based projects.",
+            "Strong experience with version control, branching strategies, and commit workflows.",
         },
         {
-          skill: "IntelliJ / VS Code",
-          percent: "80%",
+          skill: "GitHub",
+          percent: "85%",
           description:
-            "Experienced in modern IDEs for efficient and productive development.",
-        },
-        {
-          skill: "Postman / Maven / NPM",
-          percent: "75%",
-          description:
-            "Familiar with API testing, package management, and build automation tools.",
+            "Proficient in repository management, pull requests, and collaborative project workflows.",
         },
       ],
     },
     {
-      category: "Soft list",
+      category: "Databases & Cloud",
       list: [
         {
-          skill: "Leadership & Team Collaboration",
-          percent: "85%",
+          skill: "MySQL",
+          percent: "75%",
           description:
-            "Experienced in guiding teams, maintaining project clarity, and ensuring delivery within timelines.",
+            "Experienced in schema design, joins, indexing, and query optimization.",
         },
         {
-          skill: "Communication & Presentation",
+          skill: "MongoDB",
+          percent: "70%",
+          description:
+            "Understanding of NoSQL data modeling and CRUD operations for scalable apps.",
+        },
+        {
+          skill: "AWS (EC2 / Route 53)",
+          percent: "75%",
+          description:
+            "Hands-on experience deploying applications, configuring DNS, and managing cloud resources.",
+        },
+        {
+          skill: "cPanel / Hosting Management",
+          percent: "70%",
+          description:
+            "Experience in hosting configuration, domain linking, and file management.",
+        },
+      ],
+    },
+    {
+      category: "AI, Automation & Workflow",
+      list: [
+        {
+          skill: "n8n",
+          percent: "70%",
+          description:
+            "Experience designing AI-powered automations, workflow integrations, and backend triggers.",
+        },
+      ],
+    },
+    {
+      category: "Operating Systems & CLI",
+      list: [
+        {
+          skill: "Linux",
+          percent: "75%",
+          description:
+            "Comfortable managing Linux servers, permissions, and CLI-based development.",
+        },
+        {
+          skill: "Windows",
           percent: "80%",
           description:
-            "Known for bridging the gap between technical execution and client understanding.",
+            "Primary OS for development and tool configuration across multiple stacks.",
         },
         {
-          skill: "Problem Solving",
-          percent: "90%",
+          skill: "Bash / Shell Scripting",
+          percent: "60%",
           description:
-            "Thrive on tackling complex challenges with efficient, logical, and creative solutions.",
+            "Basic scripting for automation, environment setup, and system tasks.",
+        },
+        {
+          skill: "ADB (Android Debug Bridge)",
+          percent: "65%",
+          description:
+            "Experience debugging Android devices and executing shell-level commands.",
+        },
+        {
+          skill: "RDP (Remote Desktop Protocol)",
+          percent: "70%",
+          description:
+            "Knowledge of setting up and maintaining remote connections for cloud servers.",
         },
       ],
     },
   ],
 };
+
 export const Awards = {
   type: "Awards",
   list: [
     {
-      category: "Academic Achievements",
+      category: "Professional Certifications",
       list: [
         {
-          skill: "Top Performer in Computer Science Diploma",
-          percent: "2021",
+          skill: "Google Web Designer – Basic",
+          percent: "August 7, 2020",
+          id: "Completion ID: 56377985",
           description:
-            "Graduated with distinction from Anjuman Polytechnic, Nagpur, demonstrating excellence in software development and core engineering concepts.",
+            "Completed Google's foundational course on Web Designer, covering responsive design principles and animation for interactive digital experiences.",
         },
         {
-          skill: "Best Final Year Project",
-          percent: "2021",
+          skill: "Java Programming – Great Learning",
+          percent: "August 2020",
           description:
-            "Recognized for developing an innovative and technically strong web-based project focused on automation and data management.",
-        },
-      ],
-    },
-    {
-      category: "Professional Recognition",
-      list: [
-        {
-          skill: "Team Leadership Recognition – Avinya Productry Technologies",
-          percent: "2023",
-          description:
-            "Acknowledged for exceptional leadership and project delivery as Tech Lead for Productry Dashboard and microservice deployment on AWS.",
+            "Earned certification in Java programming fundamentals, focusing on object-oriented design, loops, and data structures.",
         },
         {
-          skill: "Innovation in Development – Whizzact Solution",
-          percent: "2022",
-          description:
-            "Awarded for outstanding contribution in building and optimizing the Tradeverse Dashboard, improving performance and usability by 20%.",
-        },
-      ],
-    },
-    {
-      category: "Certifications & Courses",
-      list: [
-        {
-          skill: "Full Stack Development Certification",
+          skill: "Java Tutorial – SoloLearn",
           percent: "2020",
+          id: "Certificate ID: CT-UG7LUMKB",
           description:
-            "Completed an industry-level Full Stack Developer program at Qaswa Technologies with focus on Java, JDBC, and CRUD operations.",
+            "Completed SoloLearn’s interactive Java course, mastering key programming concepts and object-oriented principles.",
         },
         {
-          skill: "AWS Fundamentals & Cloud Deployment",
-          percent: "2023",
+          skill: "JavaScript Tutorial – SoloLearn",
+          percent: "2020",
+          id: "Certificate ID: 1024-19372561",
           description:
-            "Certified in cloud deployment and microservice hosting using AWS infrastructure for scalable product environments.",
+            "Completed JavaScript fundamentals course focusing on ES6+ syntax, DOM manipulation, and dynamic web scripting.",
         },
       ],
     },
     {
-      category: "Community & Leadership",
+      category: "Additional Learning & Training",
       list: [
         {
-          skill: "Hackathon Participant – National Level Coding Event",
-          percent: "2022",
+          skill: "Social Media Marketing – HP LIFE e-Learning",
+          percent: "August 12, 2020",
           description:
-            "Participated in a national hackathon focused on real-time data analytics, earning recognition for innovative problem-solving.",
+            "Completed HP LIFE’s program on leveraging social media for digital branding and marketing strategy.",
         },
         {
-          skill: "Mentorship & Team Lead Roles",
-          percent: "2023",
+          skill: "Full Stack Development Internship – Qaswa Technologies",
+          percent: "August 5, 2020",
           description:
-            "Guided junior developers and interns in frontend and backend development, ensuring high-quality code and collaborative learning.",
+            "Completed an internship and hands-on training in Java-based Full Stack Development, covering CRUD operations and web fundamentals.",
+        },
+        {
+          skill: "GDSC Core Team Certification",
+          percent: "2022–2023",
+          description:
+            "Recognized as a Google Developer Student Club Core Team Member for leadership, collaboration, and community development initiatives.",
         },
       ],
     },
