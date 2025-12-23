@@ -53,9 +53,12 @@ const Header = () => {
           </div>
         </div>
         <div className="">
-          <button className="connect_button px-5 bg-gray-600 hidden sm:block">
+          <NavLink
+            to="/contact"
+            className="connect_button px-5 bg-gray-600 hidden sm:block"
+          >
             Connect
-          </button>
+          </NavLink>
           <button
             className="hamburger_button sticky block sm:hidden text-2xl cursor-pointer p-2 border rounded-lg z-20"
             onClick={() => {

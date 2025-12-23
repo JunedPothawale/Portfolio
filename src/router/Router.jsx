@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import UserLayout from "../components/layout/UserLayout";
 import Home from "../pages/Home";
@@ -6,7 +5,7 @@ import Work from "../pages/Work";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
 import Credentials from "../pages/Credentials";
-import Services from "./../pages/Services";
+import Services from "../pages/Services";
 
 const Router = () => {
   return (
@@ -21,7 +20,6 @@ const Router = () => {
             <Route path="/credentials" element={<Credentials />} />
             <Route path="/services" element={<Services />} />
           </Route>
-          <Route path="/admin" element=""></Route>
           <Route
             path="*"
             element={
